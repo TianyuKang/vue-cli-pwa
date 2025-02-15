@@ -5,7 +5,9 @@
       <router-link to="/about">About2</router-link>
     </nav>
     <button v-if="deferredPrompt" @click="installApp">添加到桌面</button>
-    <router-view />
+    <!-- <button id="notification">订阅</button> -->
+    <div><button id="send">消息通知</button></div>
+    <!-- <router-view /> -->
   </div>
 </template>
 
